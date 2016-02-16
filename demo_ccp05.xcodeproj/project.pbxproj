@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B71E96BF1C72873C00E163DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71E96BE1C72873C00E163DA /* AppDelegate.swift */; };
 		B71E96C11C72873C00E163DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71E96C01C72873C00E163DA /* ViewController.swift */; };
-		B71E96C41C72873C00E163DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71E96C21C72873C00E163DA /* Main.storyboard */; };
 		B71E96C61C72873C00E163DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B71E96C51C72873C00E163DA /* Assets.xcassets */; };
 		B71E96C91C72873C00E163DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71E96C71C72873C00E163DA /* LaunchScreen.storyboard */; };
 		B71E96D41C72873C00E163DA /* demo_ccp05Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71E96D31C72873C00E163DA /* demo_ccp05Tests.swift */; };
@@ -19,6 +18,12 @@
 		B71E96FA1C72897D00E163DA /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71E96F91C72897D00E163DA /* LeftMenuViewController.swift */; };
 		B71E96FC1C72899700E163DA /* RightMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71E96FB1C72899700E163DA /* RightMenuViewController.swift */; };
 		B71E96FE1C7289AB00E163DA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71E96FD1C7289AB00E163DA /* SecondViewController.swift */; };
+		B78373451C72A570005040D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78373441C72A570005040D8 /* Main.storyboard */; };
+		B78373481C7366A1005040D8 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B78373471C7366A1005040D8 /* background.jpg */; };
+		B783734A1C737F2B005040D8 /* backback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B78373491C737F2B005040D8 /* backback.jpg */; };
+		B783734C1C7393AF005040D8 /* ControlPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B783734B1C7393AF005040D8 /* ControlPageVC.swift */; };
+		B783734E1C7393C2005040D8 /* StorePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B783734D1C7393C2005040D8 /* StorePageVC.swift */; };
+		B78373501C7393DB005040D8 /* SettingPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B783734F1C7393DB005040D8 /* SettingPageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +47,6 @@
 		B71E96BB1C72873C00E163DA /* demo_ccp05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo_ccp05.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71E96BE1C72873C00E163DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B71E96C01C72873C00E163DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B71E96C31C72873C00E163DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B71E96C51C72873C00E163DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B71E96C81C72873C00E163DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B71E96CA1C72873C00E163DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +61,12 @@
 		B71E96F91C72897D00E163DA /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
 		B71E96FB1C72899700E163DA /* RightMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuViewController.swift; sourceTree = "<group>"; };
 		B71E96FD1C7289AB00E163DA /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B78373441C72A570005040D8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B78373471C7366A1005040D8 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		B78373491C737F2B005040D8 /* backback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backback.jpg; sourceTree = "<group>"; };
+		B783734B1C7393AF005040D8 /* ControlPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlPageVC.swift; sourceTree = "<group>"; };
+		B783734D1C7393C2005040D8 /* StorePageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorePageVC.swift; sourceTree = "<group>"; };
+		B783734F1C7393DB005040D8 /* SettingPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingPageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,7 @@
 		B71E96BD1C72873C00E163DA /* demo_ccp05 */ = {
 			isa = PBXGroup;
 			children = (
+				B78373461C736675005040D8 /* image */,
 				B71E96F41C7288C000E163DA /* SSASideMenu */,
 				B71E96BE1C72873C00E163DA /* AppDelegate.swift */,
 				B71E96C01C72873C00E163DA /* ViewController.swift */,
@@ -114,7 +125,10 @@
 				B71E96F91C72897D00E163DA /* LeftMenuViewController.swift */,
 				B71E96FB1C72899700E163DA /* RightMenuViewController.swift */,
 				B71E96FD1C7289AB00E163DA /* SecondViewController.swift */,
-				B71E96C21C72873C00E163DA /* Main.storyboard */,
+				B783734B1C7393AF005040D8 /* ControlPageVC.swift */,
+				B783734D1C7393C2005040D8 /* StorePageVC.swift */,
+				B783734F1C7393DB005040D8 /* SettingPageVC.swift */,
+				B78373441C72A570005040D8 /* Main.storyboard */,
 				B71E96C51C72873C00E163DA /* Assets.xcassets */,
 				B71E96C71C72873C00E163DA /* LaunchScreen.storyboard */,
 				B71E96CA1C72873C00E163DA /* Info.plist */,
@@ -146,6 +160,15 @@
 				B71E96F51C7288D600E163DA /* SSASideMenu.swift */,
 			);
 			name = SSASideMenu;
+			sourceTree = "<group>";
+		};
+		B78373461C736675005040D8 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				B78373491C737F2B005040D8 /* backback.jpg */,
+				B78373471C7366A1005040D8 /* background.jpg */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,9 +275,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B78373451C72A570005040D8 /* Main.storyboard in Resources */,
+				B783734A1C737F2B005040D8 /* backback.jpg in Resources */,
+				B78373481C7366A1005040D8 /* background.jpg in Resources */,
 				B71E96C91C72873C00E163DA /* LaunchScreen.storyboard in Resources */,
 				B71E96C61C72873C00E163DA /* Assets.xcassets in Resources */,
-				B71E96C41C72873C00E163DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +307,11 @@
 				B71E96C11C72873C00E163DA /* ViewController.swift in Sources */,
 				B71E96F61C7288D600E163DA /* SSASideMenu.swift in Sources */,
 				B71E96BF1C72873C00E163DA /* AppDelegate.swift in Sources */,
+				B783734E1C7393C2005040D8 /* StorePageVC.swift in Sources */,
+				B78373501C7393DB005040D8 /* SettingPageVC.swift in Sources */,
 				B71E96FC1C72899700E163DA /* RightMenuViewController.swift in Sources */,
 				B71E96FE1C7289AB00E163DA /* SecondViewController.swift in Sources */,
+				B783734C1C7393AF005040D8 /* ControlPageVC.swift in Sources */,
 				B71E96FA1C72897D00E163DA /* LeftMenuViewController.swift in Sources */,
 				B71E96F81C72896300E163DA /* FirstViewController.swift in Sources */,
 			);
@@ -321,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B71E96C21C72873C00E163DA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B71E96C31C72873C00E163DA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B71E96C71C72873C00E163DA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -512,6 +532,7 @@
 				B71E96E51C72873C00E163DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B71E96E61C72873C00E163DA /* Build configuration list for PBXNativeTarget "demo_ccp05Tests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +541,7 @@
 				B71E96E81C72873C00E163DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B71E96E91C72873C00E163DA /* Build configuration list for PBXNativeTarget "demo_ccp05UITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +550,7 @@
 				B71E96EB1C72873C00E163DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

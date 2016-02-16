@@ -11,6 +11,7 @@ import UIKit
 
 class LeftMenuViewController: UIViewController {
     
+    
     lazy var tableView: UITableView = {
         let tableView = UITableView()
         tableView.delegate = self
@@ -54,7 +55,7 @@ extension LeftMenuViewController: UITableViewDelegate, UITableViewDataSource {
     
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return 3
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
@@ -65,9 +66,9 @@ extension LeftMenuViewController: UITableViewDelegate, UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
         
-        let titles: [String] = ["Home", "Calendar", "Profile", "Settings", "Log Out"]
+        let titles: [String] = ["Control", "Store", "Setting"]
         
-        let images: [String] = ["IconHome", "IconCalendar", "IconProfile", "IconSettings", "IconEmpty"]
+        let images: [String] = ["IconHome", "IconEmpty", "IconSettings"]
         
         cell.backgroundColor = UIColor.clearColor()
         cell.textLabel?.font = UIFont(name: "HelveticaNeue", size: 21)
@@ -84,23 +85,31 @@ extension LeftMenuViewController: UITableViewDelegate, UITableViewDataSource {
         
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
         switch indexPath.row {
         case 0:
             
-            sideMenuViewController?.contentViewController = UINavigationController(rootViewController: FirstViewController())
+            sideMenuViewController?.contentViewController = UINavigationController(rootViewController: ControlPageVC())
             sideMenuViewController?.hideMenuViewController()
             break
         case 1:
             
-            sideMenuViewController?.contentViewController = UINavigationController(rootViewController: SecondViewController())
+            sideMenuViewController?.contentViewController = UINavigationController(rootViewController: StorePageVC())
+            sideMenuViewController?.hideMenuViewController()
+            break
+        case 2:
+            sideMenuViewController?.contentViewController = UINavigationController(rootViewController: SettingPageVC())
             sideMenuViewController?.hideMenuViewController()
             break
         default:
             break
         }
-        
+    
         
     }
+    
+
 
 
 }

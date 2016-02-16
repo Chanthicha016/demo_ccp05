@@ -100,5 +100,4 @@ extension RightMenuViewController: UITableViewDelegate, UITableViewDataSource {
         
     }
 
-
 }
