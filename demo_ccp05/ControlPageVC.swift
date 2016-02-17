@@ -8,18 +8,20 @@
 
 import UIKit
 
-class ControlPageVC: UIViewController {
+class ControlPageVC: UIViewController  {
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor.whiteColor()
-        
-        title = "Control"
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Menu", style: .Plain, target: self, action: "presentLeftMenuViewController")
+//        view.backgroundColor = UIColor.whiteColor()
+//        
+//        title = "Control"
+//        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Menu", style: .Plain, target: self, action: "presentLeftMenuViewController")
         
     }
     
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

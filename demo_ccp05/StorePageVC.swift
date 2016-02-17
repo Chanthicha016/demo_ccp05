@@ -9,14 +9,14 @@
 import UIKit
 
 class StorePageVC: UIViewController {
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor.whiteColor()
-        
-        title = "Store"
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Menu", style: .Plain, target: self, action: "presentLeftMenuViewController")
+//        view.backgroundColor = UIColor.whiteColor()
+//        
+//        title = "Store"
+//        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Menu", style: .Plain, target: self, action: "presentLeftMenuViewController")
         
     }
     

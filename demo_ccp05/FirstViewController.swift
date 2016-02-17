@@ -8,44 +8,45 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate{
     
-    
-    
-//    @IBOutlet weak var change1: UIButton!
-//    @IBOutlet weak var change2: UIButton!
-//    
-//    @IBAction func change1(sender: AnyObject) {
-//        
-//        self.presentLeftMenuViewController()
-//    }
-//    
-//    @IBAction func change2(sender: AnyObject) {
-//        
-//        self.presentRightMenuViewController()
-//        
-//    }
+    @IBOutlet weak var mainTable: UITableView!
+    var dataSource:NSMutableArray = NSMutableArray()
+    var textArray = ["Papermint","Lemon","Cocoa"]
+    var textLevel = ["Heavy","Light","Medium"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         view.backgroundColor = UIColor.whiteColor()
         
 //        title = "Home"
-//        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Left", style: .Plain, target: self, action: "presentLeftMenuViewController")
-        
+//        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Menu", style: .Plain, target: self, action: "presentLeftMenuViewController")
+    }
     
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
     }
-    @IBAction func Menu(sender: UIButton) {
-        
-        self.presentLeftMenuViewController()
-        
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return textArray.count
     }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell") as! CustomerCell
+        
+        cell.Mname.text = textArray[indexPath.row]
+        cell.Mlevel.text = textLevel[indexPath.row]
+        
+        return cell
+    }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 
 }

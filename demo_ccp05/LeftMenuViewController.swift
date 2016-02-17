@@ -55,7 +55,7 @@ extension LeftMenuViewController: UITableViewDelegate, UITableViewDataSource {
     
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 4
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
@@ -66,9 +66,9 @@ extension LeftMenuViewController: UITableViewDelegate, UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
         
-        let titles: [String] = ["Control", "Store", "Setting"]
+        let titles: [String] = ["Home", "Control", "Store", "Setting"]
         
-        let images: [String] = ["IconHome", "IconEmpty", "IconSettings"]
+        let images: [String] = ["IconHome", "IconHome", "IconEmpty", "IconSettings"]
         
         cell.backgroundColor = UIColor.clearColor()
         cell.textLabel?.font = UIFont(name: "HelveticaNeue", size: 21)
@@ -88,17 +88,24 @@ extension LeftMenuViewController: UITableViewDelegate, UITableViewDataSource {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
         switch indexPath.row {
+            
         case 0:
+            
+            sideMenuViewController?.contentViewController = UINavigationController(rootViewController: FirstViewController())
+            sideMenuViewController?.hideMenuViewController()
+            break
+            
+        case 1:
             
             sideMenuViewController?.contentViewController = UINavigationController(rootViewController: ControlPageVC())
             sideMenuViewController?.hideMenuViewController()
             break
-        case 1:
+        case 2:
             
             sideMenuViewController?.contentViewController = UINavigationController(rootViewController: StorePageVC())
             sideMenuViewController?.hideMenuViewController()
             break
-        case 2:
+        case 3:
             sideMenuViewController?.contentViewController = UINavigationController(rootViewController: SettingPageVC())
             sideMenuViewController?.hideMenuViewController()
             break
