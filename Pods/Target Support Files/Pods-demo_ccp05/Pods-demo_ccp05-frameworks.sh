@@ -85,7 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-demo_ccp05/Eureka.framework"
+  install_framework "Pods-demo_ccp05/Pulsar.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-demo_ccp05/Eureka.framework"
+  install_framework "Pods-demo_ccp05/Pulsar.framework"
 fi

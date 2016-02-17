@@ -1,12 +1,15 @@
 PODS:
   - Eureka (1.3.1)
+  - Pulsar (1.0.3)
 
 DEPENDENCIES:
   - Eureka
+  - Pulsar
 
 SPEC CHECKSUMS:
   Eureka: 10df73e578ed8ec1f30c8fda5b4ffc8739786b74
+  Pulsar: 8f20ca95d70b12121a8250981ffa4125dd3ae3c5
 
-PODFILE CHECKSUM: 5d3c8c637bb441aa292abee8ad82b83ee14554e0
+PODFILE CHECKSUM: 3a277a5d9dc8efa1d3b97bbed5e1068c6fd213c4
 
 COCOAPODS: 1.0.0.beta.3

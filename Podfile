@@ -6,6 +6,7 @@
 target 'demo_ccp05' do
 
 pod 'Eureka'
+pod 'Pulsar'
 
 end
 

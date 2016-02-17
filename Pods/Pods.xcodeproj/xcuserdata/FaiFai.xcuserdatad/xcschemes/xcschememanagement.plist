@@ -24,15 +24,15 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pulsar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>04F6CD3CC23342DCBF50FF43264816EB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>1FE522F931A0BA898164B0503783E9C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +42,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>751CBC06D4C9EA1125DAD228CC04DC9D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>83C10F0F868D6F56FC3B8C812BCAB26C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC20F96CD83ABCB5185F97CE3A356EBA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

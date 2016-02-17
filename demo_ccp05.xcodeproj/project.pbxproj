@@ -28,6 +28,8 @@
 		B78373501C7393DB005040D8 /* SettingPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B783734F1C7393DB005040D8 /* SettingPageVC.swift */; };
 		B7A8CC901C73CE54008C9E2E /* CustomerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8CC8F1C73CE54008C9E2E /* CustomerCell.swift */; };
 		B7A8CC951C73E777008C9E2E /* ChangeScentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8CC941C73E777008C9E2E /* ChangeScentVC.swift */; };
+		B7A8CC9D1C74EA6D008C9E2E /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8CC9C1C74EA6D008C9E2E /* CircleButton.swift */; };
+		B7A8CC9F1C74EA9C008C9E2E /* UIButton+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8CC9E1C74EA9C008C9E2E /* UIButton+Theme.swift */; };
 		E438B8FC2092F6118156FC28 /* Pods_demo_ccp05Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201B8578AED1CC41BD88FC18 /* Pods_demo_ccp05Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +82,8 @@
 		B783734F1C7393DB005040D8 /* SettingPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingPageVC.swift; sourceTree = "<group>"; };
 		B7A8CC8F1C73CE54008C9E2E /* CustomerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerCell.swift; sourceTree = "<group>"; };
 		B7A8CC941C73E777008C9E2E /* ChangeScentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeScentVC.swift; sourceTree = "<group>"; };
+		B7A8CC9C1C74EA6D008C9E2E /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		B7A8CC9E1C74EA9C008C9E2E /* UIButton+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Theme.swift"; sourceTree = "<group>"; };
 		C3E9D0F4039BE6718A17A62C /* Pods-demo_ccp05Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo_ccp05Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demo_ccp05Tests/Pods-demo_ccp05Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC4B7C2DD17CF26C13B9E815 /* Pods-demo_ccp05UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo_ccp05UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demo_ccp05UITests/Pods-demo_ccp05UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9945D36F9DF6C95E7643FE9 /* Pods_demo_ccp05.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo_ccp05.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +168,8 @@
 				B7A8CC8F1C73CE54008C9E2E /* CustomerCell.swift */,
 				B783734F1C7393DB005040D8 /* SettingPageVC.swift */,
 				B7A8CC941C73E777008C9E2E /* ChangeScentVC.swift */,
+				B7A8CC9C1C74EA6D008C9E2E /* CircleButton.swift */,
+				B7A8CC9E1C74EA9C008C9E2E /* UIButton+Theme.swift */,
 				B78373441C72A570005040D8 /* Main.storyboard */,
 				B71E96C51C72873C00E163DA /* Assets.xcassets */,
 				B71E96C71C72873C00E163DA /* LaunchScreen.storyboard */,
@@ -486,6 +492,7 @@
 				B71E96BF1C72873C00E163DA /* AppDelegate.swift in Sources */,
 				B783734E1C7393C2005040D8 /* StorePageVC.swift in Sources */,
 				B78373501C7393DB005040D8 /* SettingPageVC.swift in Sources */,
+				B7A8CC9D1C74EA6D008C9E2E /* CircleButton.swift in Sources */,
 				B71E96FC1C72899700E163DA /* RightMenuViewController.swift in Sources */,
 				B7A8CC951C73E777008C9E2E /* ChangeScentVC.swift in Sources */,
 				B71E96FE1C7289AB00E163DA /* SecondViewController.swift in Sources */,
@@ -493,6 +500,7 @@
 				B7A8CC901C73CE54008C9E2E /* CustomerCell.swift in Sources */,
 				B71E96FA1C72897D00E163DA /* LeftMenuViewController.swift in Sources */,
 				B71E96F81C72896300E163DA /* FirstViewController.swift in Sources */,
+				B7A8CC9F1C74EA9C008C9E2E /* UIButton+Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
